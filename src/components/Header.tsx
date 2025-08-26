@@ -26,7 +26,7 @@ const Header = () => {
         >
           <Link to="/developers">
             <Users className="h-4 w-4" />
-            <span className="hidden sm:inline">Our Team</span>
+            <span className="hidden sm:inline">Our Developer</span>
           </Link>
         </Button>
         
