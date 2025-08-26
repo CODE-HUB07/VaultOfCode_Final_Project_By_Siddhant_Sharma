@@ -28,86 +28,17 @@ const developers: Developer[] = [
   {
     name: "Siddhant Sharma",
     age: 19,
-    role: "Project Manager & Backend Developer",
+    role: "Project Manager & Backend Developer | Frontend Developer",
     responsibilities: [
-      "Task delegation and milestone planning, ensuring timely project progression.",
       "Backend logic implementation and seamless AI integration for core functionality.",
       "Managing browser-based data storage (LocalStorage) for persistent user data.",
-      "Coordinating overall project direction and functionality, aligning with objectives."
+      "Coordinating overall project direction and functionality, aligning with objectives.",
+      "Ensure responsive design",
+      "Handle cross-browser compatibility",
     ],
     idealSkills: ["Leadership", "Communication", "Planning", "Better understanding of web dev"],
     tagline: "Leading with vision, building with precision.",
     icon: Users
-  },
-  {
-    name: "Yash Bajpai",
-    age: 19,
-    role: "Frontend Developer",
-    responsibilities: [
-      "Design and implement user interface using HTML, CSS, JavaScript",
-      "Ensure responsive design",
-      "Handle cross-browser compatibility",
-      "Implement UI/UX best practices"
-    ],
-    idealSkills: ["Creative thinking", "UI/UX understanding", "Proficiency in frontend tech"],
-    tagline: "Crafting beautiful, intuitive interfaces.",
-    icon: Code
-  },
-  {
-    name: "Varun Sharma",
-    age: 19,
-    role: "Quality Assurance (QA) / Tester",
-    responsibilities: [
-      "Test web application for bugs",
-      "Write and execute test cases",
-      "Ensure smooth user experience",
-      "Performance testing"
-    ],
-    idealSkills: ["Attention to detail", "Testing methodologies", "Problem-solving"],
-    tagline: "Ensuring excellence through thorough testing.",
-    icon: ClipboardCheck
-  },
-  {
-    name: "Aryan Yadav",
-    age: 19,
-    role: "Content Writer / Copywriter",
-    responsibilities: [
-      "Write and edit website content",
-      "Create engaging headings and descriptions",
-      "Maintain consistent tone of voice",
-      "Develop blog posts and documentation"
-    ],
-    idealSkills: ["Writing", "Creativity", "Content Strategy"],
-    tagline: "Words that inspire, content that connects.",
-    icon: MessageSquare
-  },
-  {
-    name: "Bhavesh Sahu",
-    age: 19,
-    role: "Documentation Lead",
-    responsibilities: [
-      "Prepare technical documentation",
-      "Maintain API documentation",
-      "Create user manuals",
-      "Document data flow and architecture"
-    ],
-    idealSkills: ["Technical writing", "Documentation", "Organization"],
-    tagline: "Documenting success, one page at a time.",
-    icon: FileText
-  },
-  {
-    name: "Sibtain Raza",
-    age: 20,
-    role: "Research Assistant",
-    responsibilities: [
-      "Identify useful libraries, tools, and APIs",
-      "Find relevant code examples and templates",
-      "Analyze similar projects for feature ideas",
-      "Share organized findings with the team"
-    ],
-    idealSkills: ["Research", "Basic web knowledge", "Communication"],
-    tagline: "Finding the tools that power the code.",
-    icon: RssIcon
   }
 ];
 
@@ -176,10 +107,10 @@ const Developers = () => {
       <main className="flex-1 container py-12 px-4 sm:px-6">
         <div className="text-center mb-12 animate-fade-in">
           <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-purple-600 text-transparent bg-clip-text">
-            Meet Our Amazing Team
+            Meet Our Developer
           </h1>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            The talented minds behind CareerCompass AI, working together to help you discover your perfect career path.
+            The talented mind behind CareerCompass AI, work to help you discover your perfect career path.
           </p>
         </div>
 
@@ -203,12 +134,10 @@ const Developers = () => {
           </h2>
           <div className="space-y-4 text-muted-foreground">
             <p>
-              Building CareerCompass AI has been an incredible learning experience. Our team collaborated
-              seamlessly to create an innovative solution that helps people find their ideal career paths.
+              Building CareerCompass AI has been an incredible learning experience. Our Developer Worked Hard to create an innovative solution that helps people find their ideal career paths.
             </p>
             <p>
-              Each team member brought unique skills and perspectives, making this project a true reflection
-              of collaborative success and technical excellence.
+             
             </p>
           </div>
 
@@ -218,8 +147,8 @@ const Developers = () => {
           </h2>
           <div className="space-y-4 text-muted-foreground">
             <p>
-              We extend our heartfelt gratitude to our mentors at S.A.T.I. College for their invaluable guidance
-              throughout this project. Special thanks to our department faculty for their unwavering support.
+              We extend our heartfelt gratitude to our mentors at Vault Of Code for their invaluable guidance
+              throughout this project. 
             </p>
             <p>
               We're also grateful to our friends and families who encouraged us during challenging moments
